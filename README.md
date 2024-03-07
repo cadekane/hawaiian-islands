@@ -113,7 +113,14 @@ This method, called on an array, takes **another** function as an argument. This
 **Example:**
 Suppose we want to set the population of Oʻahu to 1000000.
 
-- Write a function that returns a boolean value (True or False) when given an island object. It will return true if the name property of the object is "Oʻahu," and false otherwise.
+- Write a function that returns a boolean value (True or False) when given an island object. It will return true if the name property of the object is "Oʻahu," and false otherwise. For example:
+
+```javascript
+function isOahu(island) {
+    return island.name === "Oʻahu";
+}
+```
+
 - Call the find function on your `islands` array, and use the name of your boolean function as its argument. Store this in a temporary variable.
 - You can now edit Oʻahu's properties using that temporary variable. Set "population" to 1000000.
 
