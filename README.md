@@ -57,6 +57,11 @@ But can encompass any attribute that can be described within the object! Althoug
 
 Now that we have defined objects for each Hawaiian Island, let's organize them into an array. Create an array named `islands` and add each island object to it. Because we have already defined each island, we will just create the array and add each of our island objects into it.
 
+**Example**
+```javascript
+objectArray = [objectOne, objectTwo, objectThree];
+```
+
 ### Visualize your array in HTML
 
 At this point, we want to display the characteristics of our island objects. Run the HTML file to see the results.
