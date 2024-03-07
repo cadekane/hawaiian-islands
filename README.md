@@ -121,7 +121,7 @@ function isOahu(island) {
 }
 ```
 
-- Call the find function on your `islands` array, and use the name of your boolean function as its argument. Store this in a temporary variable.
+- Next, call the `find` function on your `islands` array, and use the name of your boolean function as its argument. Store this in a temporary variable.
 - You can now edit Oʻahu's properties using that temporary variable. Set "population" to 1000000.
 
 Congratualations! You've completed this activity. I hope you learned something new about arrays, objects, and of course, Hawaiʻi's beautiful islands.
